@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- ERROR 1: Root element is "NationalPark" instead of "NationalParks" -->
 <NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-              xsi:noNamespaceSchemaLocation="https://YOUR_USERNAME.github.io/cse445a4/NationalParks.xsd">
+              xsi:noNamespaceSchemaLocation="https://joshuabunnell.github.io/cse445a4/NationalParks.xsd">
 
   <!-- ERROR 2: NearestAirport required attribute is MISSING from Address -->
   <!-- ERROR 3: Phone element is MISSING for Grand Canyon -->
