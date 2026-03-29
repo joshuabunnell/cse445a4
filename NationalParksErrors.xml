@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ERROR 1: Root element is "NationalPark" instead of "NationalParks" -->
+<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:noNamespaceSchemaLocation="https://YOUR_USERNAME.github.io/cse445a4/NationalParks.xsd">
+
+  <!-- ERROR 2: NearestAirport required attribute is MISSING from Address -->
+  <!-- ERROR 3: Phone element is MISSING for Grand Canyon -->
+  <NationalPark Rating="4.9">
+    <Name>Grand Canyon</Name>
+    <Address>
+      <Number>8</Number>
+      <Street>S Entrance Road</Street>
+      <City>Grand Canyon</City>
+      <State>AZ</State>
+      <Zip>86023</Zip>
+    </Address>
+  </NationalPark>
+
+  <!-- ERROR 4: Address element has NO closing tag -->
+  <NationalPark Rating="4.8">
+    <Name>Yellowstone</Name>
+    <Phone>307-344-7381</Phone>
+    <Address NearestAirport="JAC">
+      <Number>1</Number>
+      <Street>Grand Loop Road</Street>
+      <City>Yellowstone</City>
+      <State>WY</State>
+      <Zip>82190</Zip>
+
+  <!-- ERROR 5: Two Name elements for one park -->
+  <NationalPark Rating="4.9">
+    <Name>Yosemite</Name>
+    <Name>Yosemite National Park</Name>
+    <Phone>209-372-0200</Phone>
+    <Address NearestAirport="FAT">
+      <Number>9035</Number>
+      <Street>Village Drive</Street>
+      <City>Yosemite Valley</City>
+      <State>CA</State>
+      <Zip>95389</Zip>
+    </Address>
+  </NationalPark>
+
+</NationalPark>
