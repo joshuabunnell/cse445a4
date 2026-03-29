@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalParks xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://joshuabunnell.github.io/cse445a4/NationalParks.xsd">
+<NationalParks
+   xmlns="https://joshuabunnell.github.io/cse445a4"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="https://joshuabunnell.github.io/cse445a4 NationalParks.xsd">
 
-  <!-- Grand Canyon -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -17,7 +18,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Yellowstone -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
@@ -30,7 +30,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Yosemite -->
   <NationalPark Rating="4.9">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
@@ -43,7 +42,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Great Smoky Mountains -->
   <NationalPark>
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
@@ -56,7 +54,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Zion -->
   <NationalPark Rating="4.8">
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
@@ -69,7 +66,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Rocky Mountain -->
   <NationalPark Rating="4.7">
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
@@ -82,7 +78,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Olympic -->
   <NationalPark>
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
@@ -95,7 +90,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Glacier -->
   <NationalPark Rating="4.8">
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
@@ -109,7 +103,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Acadia -->
   <NationalPark Rating="4.7">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
@@ -122,7 +115,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Everglades -->
   <NationalPark>
     <Name>Everglades</Name>
     <Phone>305-242-7700</Phone>
@@ -135,7 +127,6 @@
     </Address>
   </NationalPark>
 
-  <!-- Grand Teton -->
   <NationalPark Rating="4.8">
     <Name>Grand Teton</Name>
     <Phone>307-739-3300</Phone>
